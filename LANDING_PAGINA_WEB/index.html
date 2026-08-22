@@ -3,21 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vertens Global | Universidad de Automatización e IA</title>
+    <title>Vertens Global University | Educación Digital de Élite</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
 </head>
-<body class="bg-slate-950 text-white">
+<body class="bg-slate-50 text-slate-900">
 
-    <nav class="p-6 flex justify-between items-center max-w-5xl mx-auto">
-        <h1 class="text-2xl font-bold text-blue-500">VERTENS GLOBAL</h1>
-        <button class="bg-blue-600 px-6 py-2 rounded-lg font-bold">Acceso Alumno</button>
+    <!-- Navegación Profesional -->
+    <nav class="bg-white border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-black tracking-tighter text-slate-900">VERTENS <span class="text-blue-600">GLOBAL</span></div>
+            <div class="hidden md:flex space-x-8 font-semibold text-sm text-slate-600">
+                <a href="#" class="hover:text-blue-600">Cursos</a>
+                <a href="#" class="hover:text-blue-600">Diplomados</a>
+                <a href="#" class="hover:text-blue-600">Carreras</a>
+                <a href="#" class="hover:text-blue-600">Empresas</a>
+            </div>
+            <a href="#" class="bg-slate-900 text-white px-6 py-2.5 rounded-lg text-sm font-bold hover:bg-blue-600 transition">Portal Alumnos</a>
+        </div>
     </nav>
 
-    <header class="text-center py-20 px-6">
-        <h2 class="text-5xl font-extrabold mb-6">La Universidad Virtual de la Era Digital</h2>
-        <p class="text-xl text-slate-400 mb-10 max-w-2xl mx-auto">Diplomados 100% prácticos en IA y Automatización. Sin teoría innecesaria, resultados reales.</p>
-        <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-10 rounded-xl text-lg transition">Ver Diplomados</button>
+    <!-- Hero Section: Impacto Digital -->
+    <header class="py-24 px-6 bg-white">
+        <div class="max-w-5xl mx-auto text-center">
+            <h1 class="text-6xl md:text-7xl font-extrabold tracking-tight mb-8">
+                Formación digital de <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">alto rendimiento</span>
+            </h1>
+            <p class="text-xl text-slate-500 mb-12 max-w-2xl mx-auto">Domina las tecnologías que mueven el mundo. Cursos, diplomados y carreras especializados en el ecosistema digital global.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="bg-blue-600 text-white px-10 py-4 rounded-xl font-bold hover:bg-blue-700 shadow-xl shadow-blue-600/20">Ver Oferta Académica</button>
+                <button class="bg-slate-100 text-slate-700 px-10 py-4 rounded-xl font-bold hover:bg-slate-200">Hablar con un asesor</button>
+            </div>
+        </div>
     </header>
+
+    <!-- Categorías Académicas -->
+    <section class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-6">
+            <!-- Cursos -->
+            <div class="group bg-white p-8 rounded-2xl border border-slate-200 hover:border-blue-500 transition-all shadow-sm hover:shadow-xl">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6 font-bold text-xl">01</div>
+                <h3 class="text-2xl font-bold mb-3">Cursos Especializados</h3>
+                <p class="text-slate-500 mb-6 text-sm leading-relaxed">Habilidades precisas y rápidas para actualizarte en herramientas digitales de última generación.</p>
+                <a href="#" class="text-blue-600 font-bold flex items-center group-hover:gap-2 transition-all">Explorar Cursos →</a>
+            </div>
+            <!-- Diplomados -->
+            <div class="group bg-white p-8 rounded-2xl border border-slate-200 hover:border-indigo-500 transition-all shadow-sm hover:shadow-xl">
+                <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-6 font-bold text-xl">02</div>
+                <h3 class="text-2xl font-bold mb-3">Diplomados Ejecutivos</h3>
+                <p class="text-slate-500 mb-6 text-sm leading-relaxed">Programas intensivos de especialización profesional con certificación avalada por la industria.</p>
+                <a href="#" class="text-indigo-600 font-bold flex items-center group-hover:gap-2 transition-all">Ver Diplomados →</a>
+            </div>
+            <!-- Carreras -->
+            <div class="group bg-white p-8 rounded-2xl border border-slate-200 hover:border-emerald-500 transition-all shadow-sm hover:shadow-xl">
+                <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-lg flex items-center justify-center mb-6 font-bold text-xl">03</div>
+                <h3 class="text-2xl font-bold mb-3">Carreras Digitales</h3>
+                <p class="text-slate-500 mb-6 text-sm leading-relaxed">Formación integral de largo plazo para liderar los pilares de la economía digital del futuro.</p>
+                <a href="#" class="text-emerald-600 font-bold flex items-center group-hover:gap-2 transition-all">Ver Carreras →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Corporativo -->
+    <footer class="bg-slate-900 text-slate-400 py-16 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-12">
+            <div>
+                <div class="text-white font-black text-lg mb-4">VERTENS GLOBAL</div>
+                <p class="text-sm">Innovación educativa sin fronteras para el profesional del mañana.</p>
+            </div>
+            <!-- Links footer aquí -->
+        </div>
+        <div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-slate-800 text-sm text-center">
+            &copy; 2026 Vertens Global University. Todos los derechos reservados.
+        </div>
+    </footer>
 
 </body>
 </html>
