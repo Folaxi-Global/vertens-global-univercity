@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertens Global | Universidad de Automatización e IA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-white">
+
+    <nav class="p-6 flex justify-between items-center max-w-5xl mx-auto">
+        <h1 class="text-2xl font-bold text-blue-500">VERTENS GLOBAL</h1>
+        <button class="bg-blue-600 px-6 py-2 rounded-lg font-bold">Acceso Alumno</button>
+    </nav>
+
+    <header class="text-center py-20 px-6">
+        <h2 class="text-5xl font-extrabold mb-6">La Universidad Virtual de la Era Digital</h2>
+        <p class="text-xl text-slate-400 mb-10 max-w-2xl mx-auto">Diplomados 100% prácticos en IA y Automatización. Sin teoría innecesaria, resultados reales.</p>
+        <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-10 rounded-xl text-lg transition">Ver Diplomados</button>
+    </header>
+
+</body>
+</html>
